@@ -1,0 +1,68 @@
+div {
+	width:50px;
+	height:50px;
+}
+
+.temp {
+	position:absolute;
+	height:200px;
+	top:60px;
+}
+
+.icon {
+  position: relative;
+  top: -10px;
+  display: inline-block;
+  font-size: 45px;
+  padding-right: 5px;
+  font-weight: 100;
+  margin-right: 10px;
+}
+
+.wi {
+  line-height: 75px;
+}
+
+.top {
+  position: absolute;
+  top: 50px;
+}
+
+.left {
+  position: absolute;
+  left: 50px;
+}
+
+.right {
+  position: absolute;
+  right: 50px;
+  text-align: right;
+}
+
+.center-ver {
+  position: absolute;
+  top: 50%;
+  height: 200px;
+  margin-top: -100px;
+  line-height: 100px;
+}
+
+.lower-third {
+  position: absolute;
+  top: 66.666%;
+  height: 200px;
+  margin-top: -100px;
+  line-height: 100px;
+}
+
+.center-hor {
+  position: absolute;
+  right: 50px;
+  left: 50px;
+  text-align: center;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 50px;
+}

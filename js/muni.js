@@ -13,9 +13,7 @@ busCodes["38Out"] = "14269";
 
 muni = function(){
     for (var busCode in busCodes) {
-    	//console.log("muni2.php?busCode="+busCodes[busCode]);
-    	$.getJSON("muni2.php?busCode="+busCodes[busCode],function(data) {
-    	   //console.log(data.AgencyList.Agency.RouteList.Route); //This needs to be iterated
+          $.getJSON("controllers/muni.php?busCode="+busCodes[busCode],function(data) {
     	   var routeStops = data.AgencyList.Agency.RouteList.Route;
            for (var route in routeStops) {
               var busName = routeStops[route]["@attributes"].Name;
@@ -29,10 +27,11 @@ muni = function(){
                     busStopTimeString += busStopTimes[busStopTime] + " ";
                     
                 }
+
                 console.log(busStopTimeString);
             }
         }
-    });
+      });
     }
 
 };
