@@ -11,24 +11,29 @@
 <script type="text/javascript" src="js/main.js"></script>
 
 </head>
-
-<div class="top">
-	<h3>WEATHER INFO:</h3><br>
-	<div class="temp" id="temp"> </canvas></div>
+<body>
+<div class="top left">
+	<div id="temp"></div>
 </div>
 
-        </canvas>
-<div class="bottom">
-
-	<h3>DATE:</h3><br>
-	<p id="date"></p>
+<div class="top center-hor">
 	<p id="time"></p>
-
-	<h3>BUS STOP</h3><br>
-	<p id="busStop"></p>
+	<p id="date"></p>
 
 </div>
 
+<div class="top right">
+
+		<div class="busStop"></div>
+		<p id="busStop"></p>
+</div>
+
+<div class="bottom right">
+
+
+
+</div>
+</body>
 <script>
     var icons = new Skycons({"color": "#fff"}),
           list  = [
