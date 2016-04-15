@@ -9,7 +9,7 @@ $(document).ready(function(){
     muni();
     weather();
     setInterval(date, 1000);
-    setInterval(muni,60000);
+    //setInterval(muni,60000);
     //setInterval(weather,600000); //Update every 10 min
 
 

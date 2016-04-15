@@ -16,7 +16,7 @@ weather = function() {
 		_newHTML += '<p>Min ' + minTemp + '</p>'
 		_newHTML += '<p>Max ' + maxTemp + '</p>'
 
-		$('#temp').append(_newHTML);
+		$('#temp').html(_newHTML);
 
 
 

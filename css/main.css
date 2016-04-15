@@ -47,3 +47,17 @@ td {
     display:block;
     vertical-align: top;
 }
+.busName {
+  font-size: 60;
+  width: 50%;
+  float: left;
+}
+.busDirection {
+  position: relative;
+  right: 0
+}
+.busTime {
+  position: relative;
+  right: 0
+}
+.
