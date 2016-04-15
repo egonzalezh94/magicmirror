@@ -65,7 +65,7 @@ muni2 = function(){
 
               }
             else { //Times are not available
-                $('#'+busName).append('<div class=busTime>N/A</div>');
+                $('#'+busName).append('<div class=busTime>- - -</div>');
 
             }
             //_newHTML += "</tr>"
