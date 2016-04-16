@@ -8,7 +8,7 @@ html {
   font-family: "HelveticaNeue-Light", sans-serif;
   letter-spacing: -1px;
   color: #fff;
-  font-size: 20px; //75px
+  font-size: 40px;
   -webkit-font-smoothing: antialiased;
   text-rendering: geometricprecision;
 }
@@ -47,9 +47,14 @@ td {
     display:block;
     vertical-align: top;
 }
+.busStop {
+  font-size: 20px;
+}
+
 .busName {
   font-size: 60;
   width: 50%;
+  height: 100%;
   float: left;
 }
 .busDirection {
@@ -60,4 +65,12 @@ td {
   position: relative;
   right: 0
 }
-.
+
+#time {
+  font-size: 150%;
+  margin: 1px;
+}
+
+#date {
+  margin: 1px;
+}

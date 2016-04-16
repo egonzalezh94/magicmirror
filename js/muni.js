@@ -11,7 +11,7 @@ busCodes["31Out"] = "13049";
 busCodes["38In"] = "14270";
 busCodes["38Out"] = "14269";
 
-muni2 = function(){
+muni = function(){
     $('.busStop').text("");
     for (var busCode in busCodes) {
 
