@@ -1,45 +1,25 @@
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="css/main.css">
-<script src="js/jquery-2.2.2.js"></script>
-<script type="text/javascript" src="js/date.js"></script>
-<script type="text/javascript" src="js/muni.js"></script>
-<script src="js/skycons.js"></script>
-<script type="text/javascript" src="js/weather.js"></script>
-<script type="text/javascript" src="js/moment.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
-
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/jquery-2.2.2.js"></script>
+    <script type="text/javascript" src="js/date.js"></script>
+    <script type="text/javascript" src="js/muni.js"></script>
+    <script src="js/skycons.js"></script>
+    <script type="text/javascript" src="js/weather.js"></script>
+    <script type="text/javascript" src="js/moment.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
-<div class="top left">
-	<p id="time"></p>
-	<p id="date"></p>
-	<hr>
-	<div id="temp"></div>
-	<hr>
-	<div class="busStop"></div>
-</div>
+    <div class="top left">
+        <p id="time"></p>
+        <p id="date"></p>
+        <hr>
+        <div id="temp"></div>
+        <hr>
+        <div class="busStop"></div>
+    </div>
 
 
 </div>
 </body>
-<script>
-    var icons = new Skycons({"color": "#fff"}),
-          list  = [
-            "clear-day", "clear-night", "partly-cloudy-day",
-            "partly-cloudy-night", "cloudy", "rain", "sleet", "snow", "wind",
-            "fog"
-          ],
-          i;
-
-      for(i = list.length; i--; ) {
-    var weatherType = list[i],
-        elements = document.getElementsByClassName( weatherType );
-    for (e = elements.length; e--;){
-        icons.set( elements[e], weatherType );
-    }
-}
-
-      icons.play();
-</script>
 </html>

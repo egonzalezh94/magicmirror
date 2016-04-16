@@ -1,81 +1,53 @@
 body,
 html {
-  background: #000;
-  padding: 0px;
-  margin: 0px;
-  width: 100%;
-  height: 100%;
-  font-family: "HelveticaNeue-Light", sans-serif;
-  letter-spacing: -1px;
-  color: #fff;
-  font-size: 40px;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: geometricprecision;
+    background: #000;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: "HelveticaNeue-Light", sans-serif;
+    letter-spacing: -1px;
+    color: #fff;
+    font-size: 40px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: geometricprecision;
 }
 
 .top {
-  position: absolute;
-  top: 25px;
-	height: 50%;
+    position: absolute;
+    top: 25px;
+    height: 50%;
 }
 
 .left {
-  position: absolute;
-  left: 25px;
+    position: absolute;
+    left: 25px;
 }
 
-.right {
-  position: absolute;
-  right: 25px;
-  text-align: right;
-}
-
-.center-hor {
-  position: absolute;
-  right: 50px;
-  left: 50px;
-  text-align: center;
-}
-
-.bottom {
-  position: absolute;
-  bottom: 25px;
-	height: 50%;
-}
-
-td {
-    display:block;
-    vertical-align: top;
-}
 .busStop {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .busName {
-  font-size: 60;
-  width: 50%;
-  height: 100%;
-  float: left;
+    font-size: 60;
+    width: 50%;
+    height: 100%;
+    float: left;
 }
 .busDirection {
-  position: relative;
-  right: 0
+    position: relative;
+    right: 0
 }
 .busTime {
-  position: relative;
-  right: 0
+    position: relative;
+    right: 0
 }
 
 #time {
-  font-size: 150%;
-  margin: 1px;
+    font-size: 150%;
+    margin: 1px;
 }
 
 #date {
-  margin: 1px;
-}
-
-busStop hr {
-    border-top:1px dotted #fff;
-
+    margin: 1px;
 }
