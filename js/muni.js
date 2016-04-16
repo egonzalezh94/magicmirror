@@ -43,6 +43,9 @@ muni = function(){
                   $('#'+busName).css("height",100);
                   $('#'+busName).css("width",240);
                   $('#'+busName).css("position","relative");
+                  $('#'+busName).css("border-bottom","1px solid white");
+                  $('#'+busName).css("margin-bottom","5px");
+
 
 
                   $('#'+busName).append('<div class="busName">' + busName + '</div>');
@@ -75,5 +78,6 @@ muni = function(){
       });
 
     }
+
 
 };

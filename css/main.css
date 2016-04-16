@@ -74,3 +74,8 @@ td {
 #date {
   margin: 1px;
 }
+
+busStop hr {
+    border-top:1px dotted #fff;
+
+}
