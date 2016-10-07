@@ -7,12 +7,12 @@ This is my own personal variation of Michael Teeuw's [Magic Mirror](http://micha
 It contains three main functions:  
 
 1. Displays date and time using [Moment JS](http://momentjs.com/).  
-2. Fetches weather using forecast.io's [API](https://developer.forecast.io/).   
+2. Fetches weather using Dark Sky's [API](https://darksky.net/dev/).   
 3. Gets San Francisco's bus departures close to home using San Francisco Municipal Transportation Agency's [API](http://www.511.org/developer-resources_transit-api.asp).  
 
 
 ##Configuration
-All configuration is hard-coded for now, in near future information such as forecast.io and Muni's API keys will be added here as well as city, time locale, etc.
+All configuration is hard-coded for now, in the future, information such as Dark Sky and Muni's API keys will be added here as well as city, time locale, etc.
 
 ##Code
 
